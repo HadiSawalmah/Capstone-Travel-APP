@@ -1,0 +1,49 @@
+{
+  "name": "capstone-travel-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service-worker.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "dev": "webpack serve --mode development --open",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HadiSawalmah/Capstone-Travel-APP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HadiSawalmah/Capstone-Travel-APP/issues"
+  },
+  "homepage": "https://github.com/HadiSawalmah/Capstone-Travel-APP#readme",
+  "dependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "axios": "^1.8.1",
+    "babel-loader": "^10.0.0",
+    "body-parser": "^1.20.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "cors": "^2.8.5",
+    "css-loader": "^7.1.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "jest": "^29.7.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "sass": "^1.85.1",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}
