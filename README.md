@@ -1,4 +1,4 @@
-ravel Planner App
+Travel Planner App
 
 Description
 
